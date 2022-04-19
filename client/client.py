@@ -64,5 +64,5 @@ class Client:
         self.client.close()
 
 if __name__ == "__main__":
-    cli = Client()
+    cli = Client("DEFAULT")
     cli.send_file()
